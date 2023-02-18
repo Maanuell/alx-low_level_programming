@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- * Description: Prints alphabets in lower and uppercase
+ * Description: Prints alphabet in lower and uppercase
  * Return: Always 0 (success)
  */
 
@@ -13,15 +13,12 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		else
-		{
-		}
+		putchar(ch);
+	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
 }
-
